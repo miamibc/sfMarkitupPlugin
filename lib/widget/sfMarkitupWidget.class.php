@@ -10,7 +10,7 @@
  * @author     Tomasz Zdanowski <tomasz@mikran.pl>
  *
  */
-class sfMarkItUpWidget extends sfWidgetFormTextarea
+class sfMarkitupWidget extends sfWidgetFormTextarea
 {
   protected function configure($options = array(), $attributes = array())
   {
