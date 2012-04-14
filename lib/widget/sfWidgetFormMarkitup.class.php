@@ -73,7 +73,8 @@ EOF
     $this->getOption('settings')
     );
 
-    return $textarea . $js;
+    sfContext::getInstance()->getResponse()->setSlot('inlineJsForMarkitup', $js);
+    return $textarea;
   }
 
   /**
